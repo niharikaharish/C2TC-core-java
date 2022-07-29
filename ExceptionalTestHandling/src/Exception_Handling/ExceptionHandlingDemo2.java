@@ -29,4 +29,7 @@ public class ExceptionHandlingDemo2 {
 		}
 		System.out.println("In the class");
 	}
+
+	public void p() {
+	}
 }
