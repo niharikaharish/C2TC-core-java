@@ -15,9 +15,9 @@ public class Example
 		{
 			try
 			{
-				throw new StudentIdNotFoundException(id);
+				throw new ClassNotFoundException();
 			}
-			catch(StudentIdNotFoundException se)
+			catch(ClassNotFoundException se)
 			{
 				System.out.println(se);	
 				System.out.println(se.getMessage());
