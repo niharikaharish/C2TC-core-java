@@ -1,7 +1,5 @@
 package buffer;
-
 public class StringBufferDemo {
-
 	public static void main(String[] args) {
 StringBuffer sb=new StringBuffer("C++");
 System.out.println("Length"+sb.length());
@@ -16,7 +14,5 @@ StringBuffer sb2=new StringBuffer("Java Programming");
 System.out.println(sb2);
 sb2.replace(0,  4, "c");
 System.out.println(sb2);
-//TODO Auto-generated method stub
 	}
-
 }
